@@ -1,0 +1,18 @@
+pkgbase = spirv-tools
+	pkgdesc = API and commands for processing SPIR-V modules
+	pkgver = 1.3.216.0
+	pkgrel = 1
+	url = https://www.khronos.org/vulkan/
+	arch = x86_64
+	groups = vulkan-devel
+	license = custom
+	makedepends = cmake
+	makedepends = python
+	makedepends = git
+	makedepends = ninja
+	makedepends = spirv-headers
+	depends = gcc-libs
+	source = SPIRV-Tools-sdk-1.3.216.0.tar.gz::https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/sdk-1.3.216.0.tar.gz
+	sha512sums = 2d7f18e00a13a26f7aec81a2e5aca39a8f2e2801018aedd2d4332096e9dcea9e336527438acce381608cb6612eca034c6147795c207016403ee7201ed0c327eb
+
+pkgname = spirv-tools
