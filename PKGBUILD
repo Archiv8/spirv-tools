@@ -31,13 +31,17 @@ groups=(
   "vulkan-devel"
 )
 depends=(
+  # Official Arch Linux
   "gcc-libs"
 )
 makedepends=(
+  # Official Arch Linux
   "cmake"
   "python"
   "git"
   "ninja"
+
+  # Archiv8 / AUR
   "spirv-headers"
 )
 # https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/v2022.2.tar.gz
